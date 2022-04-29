@@ -70,7 +70,7 @@ class Pajaro(object):
         self.alive = True
 
     def move_up(self):
-        self.pos_y = 0.2
+        self.pos_y += 0.2
 
     def draw(self, pipeline):
             self.model.transform = tr.translate(0.7 * self.pos_x, self.pos_y, 0)
