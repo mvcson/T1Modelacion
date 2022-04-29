@@ -15,7 +15,7 @@ class Controller(object):
     def set_model(self, m):
         self.pajaro = m
 
-    def set_eggs(self, e):
+    def set_tubo(self, e):
         self.tubo = e
 
     def on_key(self, window, key, scancode, action, mods):
